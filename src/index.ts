@@ -1,1 +1,1 @@
-export { makeReadme, API } from "./apiToReadme";
+export { makeReadme, API, Options } from "./apiToReadme";

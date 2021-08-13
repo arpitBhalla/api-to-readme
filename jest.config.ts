@@ -1,4 +1,4 @@
-module.exports = {
+export default {
   roots: ["<rootDir>/src"],
   preset: "ts-jest",
   testEnvironment: "node",
@@ -7,6 +7,8 @@ module.exports = {
   transform: {
     "^.+\\.(ts)$": "ts-jest",
   },
+
   testRegex: "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
+
   moduleFileExtensions: ["ts", "json", "js", "node"],
 };
