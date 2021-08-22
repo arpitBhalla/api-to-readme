@@ -1,19 +1,21 @@
 {
-  "name": "@arpit-bhalla/api-to-readme",
-  "version": "0.0.2",
+  "name": "api-to-readme",
+  "displayName": "API to README",
   "description": "Generate readme MD from API",
+  "version": "0.1.0",
   "main": "dist/index.js",
   "types": "dist",
   "files": [
     "dist"
   ],
-  "bin": "dist/cli.js",
   "scripts": {
     "build": "tsc",
+    "prepublish": "tsc",
     "test": "jest",
     "lint": "eslint ."
   },
   "author": "Arpit Bhalla",
+  "homepage": "https://github.com/arpitBhalla/api-to-readme",
   "license": "MIT",
   "devDependencies": {
     "@types/jest": "^27.0.1",
@@ -28,5 +30,12 @@
     "ts-jest": "^27.0.4",
     "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpitBhalla/api-to-readme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arpitBhalla/api-to-readme/issues"
   }
 }
