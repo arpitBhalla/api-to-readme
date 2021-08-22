@@ -1,23 +1,23 @@
-<h1 align="center">API To README</h1>
+# API To README
 
-<p align="center">
+Script to insert REST API endpoints to README.md
 
-  <img alt="License" src="https://img.shields.io/github/license/arpitBhalla/api-to-readme?style=flat-square">
+![MIT](https://img.shields.io/github/license/arpitBhalla/api-to-readme?style=flat-square)
+![Issues](https://img.shields.io/github/issues/arpitBhalla/api-to-readme?style=flat-square)
+![Installs](https://img.shields.io/npm/v/api-to-readme?style=flat-square)
+![Start](https://img.shields.io/github/stars/arpitBhalla/api-to-readme?style=flat-square)
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/arpitBhalla/api-to-readme?style=flat-square" />
-
-  <img alt="NPM installs" src="https://img.shields.io/npm/v/api-to-readme?style=flat-square" />
-
-   <img alt="Github stars" src="https://img.shields.io/github/stars/arpitBhalla/api-to-readme?style=flat-square" />
-</p>
-
-<hr>
+---
 
 ## :rocket: Getting Started
+
+### Install
 
 ```bash
 npm install api-to-readme
 ```
+
+### Usage
 
 ```js
 /scripts/generateAPI.js
@@ -62,6 +62,8 @@ makeReadme(apis, {
   endComment: "api-end",
 })
 ```
+
+### Run
 
 ```bash
 # run the script
@@ -131,40 +133,6 @@ GET /search/
 ...
 ````
 
-### Preview
-
----
-
-### **Search**
-
-Search for user
-
-| Parameter | Type     | Description               |
-| --------- | -------- | ------------------------- |
-| `q`       | `string` | **Required** Search query |
-
-```http
-GET /search/
-```
-
-- Response
-
-```json
-{
-  "code": 200,
-  "posts": [
-    {
-      "name": "string"
-    },
-    {
-      "name": "string"
-    }
-  ]
-}
-```
-
----
-
 ## :checkered_flag: Contribution
 
 ```bash
@@ -178,6 +146,7 @@ $ cd api-to-readme
 $ npm install
 
 # Start contribution
+
 ```
 
 ## :memo: License
