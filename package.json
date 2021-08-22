@@ -2,7 +2,7 @@
   "name": "api-to-readme",
   "displayName": "API to README",
   "description": "Script to insert REST API endpoints to README.md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist",
   "files": [
