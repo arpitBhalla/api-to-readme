@@ -2,32 +2,42 @@
 
 exports[`Name of the group should  1`] = `
 "### **Search**
-
 Search for user
 
-> **\`GET\`**  **/search?q={string}&page={number}&perPage={number}**
+| Parameter | Type| Description|
+|----|----|----|
+| \`q\` | \`string\` |**Required** Search query| 
+| \`page\` | \`number\` | Page number| 
+| \`perPage\` | \`number\` | Number of items per page| 
 
-**Response**
+\`\`\`http
+GET search
+\`\`\`
+
+- Response
 
 \`\`\`json
 {
-    \\"code\\": 200,
-    \\"posts\\": [
-        {
-            \\"name\\": \\"string\\"
-        },
-        {
-            \\"name\\": \\"string\\"
-        }
-    ]
+  \\"code\\": 200,
+  \\"posts\\": [
+    {
+      \\"name\\": \\"string\\"
+    },
+    {
+      \\"name\\": \\"string\\"
+    }
+  ]
 }
 \`\`\`
-
+---
 ### **New User**
 
-> **\`POST\`**  **/newUser**
 
-**Request Body**
+
+\`\`\`http
+POST newUser
+\`\`\`
+- Request
 
 \`\`\`json
 {
@@ -35,52 +45,58 @@ Search for user
   \\"password\\": \\"string\\"
 }
 \`\`\`
-
-**Response**
+- Response
 
 \`\`\`json
 {
-    \\"code\\": 200
+  \\"code\\": 200
 }
-\`\`\`
-"
+\`\`\`"
 `;
 
 exports[`Name of the group should  2`] = `
-"# APIS
-
-## About
+"# My Project
 
 ## API
 
 <!--api-start-->
 ### **Search**
-
 Search for user
 
-> **\`GET\`**  **/search?q={string}&page={number}&perPage={number}**
+| Parameter | Type| Description|
+|----|----|----|
+| \`q\` | \`string\` |**Required** Search query| 
+| \`page\` | \`number\` | Page number| 
+| \`perPage\` | \`number\` | Number of items per page| 
 
-**Response**
+\`\`\`http
+GET search
+\`\`\`
+
+- Response
 
 \`\`\`json
 {
-    \\"code\\": 200,
-    \\"posts\\": [
-        {
-            \\"name\\": \\"string\\"
-        },
-        {
-            \\"name\\": \\"string\\"
-        }
-    ]
+  \\"code\\": 200,
+  \\"posts\\": [
+    {
+      \\"name\\": \\"string\\"
+    },
+    {
+      \\"name\\": \\"string\\"
+    }
+  ]
 }
 \`\`\`
-
+---
 ### **New User**
 
-> **\`POST\`**  **/newUser**
 
-**Request Body**
+
+\`\`\`http
+POST newUser
+\`\`\`
+- Request
 
 \`\`\`json
 {
@@ -88,15 +104,13 @@ Search for user
   \\"password\\": \\"string\\"
 }
 \`\`\`
-
-**Response**
+- Response
 
 \`\`\`json
 {
-    \\"code\\": 200
+  \\"code\\": 200
 }
 \`\`\`
-
 <!--api-end-->
 "
 `;

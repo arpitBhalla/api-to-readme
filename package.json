@@ -1,9 +1,13 @@
 {
-  "name": "@arpitbhalla/api-to-readme",
-  "version": "0.0.1",
-  "description": "Generate readme MD from API)",
+  "name": "@arpit-bhalla/api-to-readme",
+  "version": "0.0.2",
+  "description": "Generate readme MD from API",
   "main": "dist/index.js",
   "types": "dist",
+  "files": [
+    "dist"
+  ],
+  "bin": "dist/cli.js",
   "scripts": {
     "build": "tsc",
     "test": "jest",

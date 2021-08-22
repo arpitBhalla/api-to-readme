@@ -1,37 +1,48 @@
-# APIS
-
-## About
+# My Project
 
 ## API
 
 <!--api-start-->
+
 ### **Search**
 
 Search for user
 
-> **`GET`**  **/search?q={string}&page={number}&perPage={number}**
+| Parameter | Type     | Description               |
+| --------- | -------- | ------------------------- |
+| `q`       | `string` | **Required** Search query |
+| `page`    | `number` | Page number               |
+| `perPage` | `number` | Number of items per page  |
 
-**Response**
+```http
+GET search
+```
+
+- Response
 
 ```json
 {
-    "code": 200,
-    "posts": [
-        {
-            "name": "string"
-        },
-        {
-            "name": "string"
-        }
-    ]
+  "code": 200,
+  "posts": [
+    {
+      "name": "string"
+    },
+    {
+      "name": "string"
+    }
+  ]
 }
 ```
 
+---
+
 ### **New User**
 
-> **`POST`**  **/newUser**
+```http
+POST newUser
+```
 
-**Request Body**
+- Request
 
 ```json
 {
@@ -40,11 +51,11 @@ Search for user
 }
 ```
 
-**Response**
+- Response
 
 ```json
 {
-    "code": 200
+  "code": 200
 }
 ```
 

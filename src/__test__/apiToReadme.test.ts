@@ -6,8 +6,26 @@ describe("Name of the group", () => {
     {
       name: "Search",
       description: "Search for user",
-      endpoint: "search?q={string}&page={number}&perPage={number}",
+      endpoint: "search",
       method: "GET",
+      queryString: [
+        {
+          type: "string",
+          name: "q",
+          description: "Search query",
+          required: true,
+        },
+        {
+          type: "number",
+          name: "page",
+          description: "Page number",
+        },
+        {
+          type: "number",
+          name: "perPage",
+          description: "Number of items per page",
+        },
+      ],
       response: {
         code: 200,
         posts: [
