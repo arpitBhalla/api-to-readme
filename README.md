@@ -2,10 +2,7 @@
 
 Script to insert REST API endpoints to README.md
 
-![MIT](https://img.shields.io/github/license/arpitBhalla/api-to-readme?style=flat-square)
-![Issues](https://img.shields.io/github/issues/arpitBhalla/api-to-readme?style=flat-square)
-![Installs](https://img.shields.io/npm/v/api-to-readme?style=flat-square)
-![Start](https://img.shields.io/github/stars/arpitBhalla/api-to-readme?style=flat-square)
+![npm](https://img.shields.io/npm/v/api-to-readme?style=flat-square) ![npm](https://img.shields.io/npm/dm/api-to-readme?style=flat-square) ![NPM](https://img.shields.io/npm/l/api-to-readme?style=flat-square) ![Snyk Vulnerabilities for npm package](https://img.shields.io/snyk/vulnerabilities/npm/api-to-readme?style=flat-square) ![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/npm/api-to-readme?style=flat-square)
 
 ---
 
