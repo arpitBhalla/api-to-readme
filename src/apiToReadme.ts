@@ -58,8 +58,8 @@ export const makeReadme = (
       return [
         `### **${api.name}**`,
         api.description,
-        qString,
         method,
+        qString,
         request,
         response,
       ].join("\n");
